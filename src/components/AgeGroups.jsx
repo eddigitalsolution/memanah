@@ -1,0 +1,8 @@
+import {useState,useEffect} from 'react';
+import {flushSync} from 'react-dom';
+import {motion,MotionConfig,AnimatePresence,useReducedMotion} from 'framer-motion';
+import {Target,ArrowUpRight,ArrowRight,Menu,X,MapPin,Clock,ShieldCheck,Users,MessageCircle,Check,Plus,Minus,MoveUpRight,Crosshair} from 'lucide-react';
+import {siteData} from '../data/siteData';
+import {whatsappUrl,bookingMessage,validateBooking} from '../utils/whatsapp';
+import {Brand,WhatsApp,Reveal,Art,nav} from './Shared';
+export default function AgeGroups({onSelect}){return <Reveal className="age-section" id="kelas"><div className="wrap"><div className="center-heading"><div className="eyebrow red-text">SETIAP ANAK ADA SASARAN MEREKA</div><h2>Pilih archer anda<span className="red-text">.</span></h2><p>Kecil atau remaja, pengembaraan memanah menanti!</p></div><div className="age-grid">{siteData.ageGroups.map((g,i)=><article className={`age-card age-${g.id}`} key={g.id}><div className="age-content"><span className="tag">{g.range} TAHUN</span><h3>{g.name}</h3><p>{g.description}</p><button className={`button ${i?'navy':'red'}`} onClick={()=>onSelect(g.id)}>Pilih {i?'remaja':'junior'}<ArrowUpRight size={18}/></button></div><div className="age-art"><img className="age-character" src={`/images/${g.id==='junior'?'junior-archer.webp':'teen-archer.webp'}`} alt={g.id==='junior'?'Pemanah junior dengan songkok sedang membidik busur tradisional':'Pemanah remaja membidik busur tradisional'} loading="lazy" decoding="async" width="680" height="1020"/></div><span className="card-star" aria-hidden="true">✦</span></article>)}</div></div></Reveal>}

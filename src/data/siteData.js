@@ -1,0 +1,8 @@
+export const WHATSAPP_NUMBER = '601124071993';
+export const siteData = {
+ brandName:'PANAH RIA', tagline:'MEMANAH TRADISIONAL',location:'Masjid Setia Alam',whatsappNumber:WHATSAPP_NUMBER,
+ ageGroups:[{id:'junior',name:'Junior Archer',label:'Kanak-kanak 5–12 tahun',range:'5–12',min:5,max:12,description:'Kenali asas memanah dalam suasana pembelajaran yang menyeronokkan.'},{id:'teen',name:'Teen Archer',label:'Remaja 13–17 tahun',range:'13–17',min:13,max:17,description:'Bina teknik, fokus dan keyakinan melalui latihan memanah.'}],
+ sessions:['Sesi 1','Sesi 2','Sesi 3'],socialLinks:[],
+ benefits:[{title:'Fokus',text:'Latih tumpuan dan kekal fokus pada sasaran.'},{title:'Disiplin',text:'Membina disiplin melalui latihan yang konsisten.'},{title:'Keyakinan',text:'Berani mencuba, belajar dan memperbaiki kemahiran.'},{title:'Akhlak',text:'Membentuk sikap dan jati diri melalui aktiviti yang positif.'}],
+ faq:[['Siapa yang boleh menyertai kelas?','Kelas ini terbuka kepada kanak-kanak dan remaja. Hubungi kami untuk berbincang tentang kesesuaian kelas untuk anak anda.'],['Berapa umur peserta?','Junior Archer untuk umur 5–12 tahun dan Teen Archer untuk umur 13–17 tahun.'],['Berapa lama satu sesi?','Setiap sesi berlangsung selama 1 jam 30 minit.'],['Berapa sesi program?','Program merangkumi 3 sesi sebulan. Tarikh dan waktu disahkan melalui WhatsApp.'],['Adakah peralatan disediakan?','Ya, peralatan memanah disediakan untuk kelas.'],['Di mana kelas dijalankan?','Kelas dijalankan di Masjid Setia Alam. Hubungi kami untuk tempat pertemuan yang tepat.'],['Bagaimana cara mendaftar?','Pilih kategori, isi borang dan teruskan ke WhatsApp. Pasukan Panah Ria akan membantu mengesahkan pendaftaran anda.']]
+};
