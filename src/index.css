@@ -13,3 +13,4 @@
 .field label{font-size:14px}.field input,.field select{font-size:16px}.faq-item button{min-height:52px}
 .final-cta>.archer-art{right:0;width:auto;height:100%;bottom:0}
 @media(max-width:760px){.final-cta>.archer-art{right:-15px;width:310px;height:auto;bottom:-7px}}
+@media(max-width:760px){.final-cta{padding-bottom:30px;min-height:0}.final-cta>.archer-art{display:none}}
